@@ -3,7 +3,7 @@
 
 namespace offsets
 {
-	uintptr_t GWorld = 0x12D17A08; // UWorld
+	uintptr_t GWorld = 0x12D9F408; // UWorld
 	uintptr_t PersistentLevel = 0x40;
 	uintptr_t OwningWorld = 0xF8;
 	uintptr_t HabaneroComponent = 0xA10;
