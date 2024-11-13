@@ -29,7 +29,7 @@ namespace offsets
     uintptr_t GameState = 0x188; // Updated GameState
     uintptr_t GameInstance = 0x200; // Updated GameInstance
     uintptr_t PlayerArray = 0x2C0;
-    uintptr_t TeamIndex = 0x1239; //not updated
+    uintptr_t TeamIndex = 0x1239;
     uintptr_t RootC = 0x1B0;
     uintptr_t CameraManager = 0x348;
     uintptr_t CachedActor = 0x308;
