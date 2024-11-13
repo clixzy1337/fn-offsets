@@ -1,1 +1,1 @@
-updated for ++Fortnite+Release-32.00-CL-37770125-Windows
+updated for ++Fortnite+Release-32.10-CL-37958378-Windows
