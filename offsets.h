@@ -39,7 +39,7 @@ namespace offsets
     uintptr_t BoneCache = 0x5B8;
     uintptr_t C2W = 0x1C0;
     uintptr_t Actor = 0xA0;
-    uintptr_t ActorMesh = 0x328;
+    uintptr_t mesh = 0x328;
     uintptr_t CurrentActor = 0xA8;
     uintptr_t RelativeLocation = 0x120;
     uintptr_t DisplayName = 0x90;
