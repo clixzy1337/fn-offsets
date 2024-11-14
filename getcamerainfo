@@ -1,0 +1,26 @@
+CameraInfo GetCameraInfo()
+{
+	CameraInfo camera;
+	auto location_pointer = read<uintptr_t>(Uworld + 0x128); //updated for 32.10
+	auto rotation_pointer = read<uintptr_t>(Uworld + 0x138); //updated for 32.10
+
+	struct RotationInfo
+	{
+		double pitch;
+		char pad_0008[24];
+		double yaw;
+		char pad_0028[424];
+		double roll;
+	} rotationInfo;
+
+	rotationInfo.pitch = read<double>(rotation_pointer);
+	rotationInfo.yaw = read<double>(rotation_pointer + 0x20);
+	rotationInfo.roll = read<double>(rotation_pointer + 0x1d0);
+
+	camera.location = read<Vector3>(location_pointer);
+	camera.rotation.x = asin(rotationInfo.roll) * (180.0 / M_PI);
+	camera.rotation.y = ((atan2(rotationInfo.pitch * -1, rotationInfo.yaw) * (180.0 / M_PI)) * -1) * -1;
+	camera.fov = read<float>((uintptr_t)Localplayer + 0x4AC);
+
+	return camera;
+}
