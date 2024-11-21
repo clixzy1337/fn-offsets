@@ -7,7 +7,7 @@ namespace offsets
     uintptr_t OwningWorld = 0xF8;
     uintptr_t HabaneroComponent = 0xA10;
     uintptr_t GObjects = 0x12E4DF88;
-    uintptr_t GNames = 0x12F88B00; // Updated GNames
+    uintptr_t GNames = 0x130C2A80; // Updated GNames
     uintptr_t FName = 0x124DE7C0 + 8;
     uintptr_t StaticFindObject = 0x1DE185C;
     uintptr_t GetBoneMatrix = 0x1E4E8E6;
