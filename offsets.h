@@ -3,7 +3,7 @@
     uintptr_t LocalPawn = 0x350;
     uintptr_t PlayerController = 0x30;
     uintptr_t TeamIndex = 0x30;
-    uintptr_t TeamIndex = 0x1261; //on some cheats like pasterx if you don't update this your esp might not work
+    uintptr_t TeamIndex = 0x1261; //on some cheats like pasterx (the green one) if you don't update this your esp might not work
     uintptr_t LocalPlayers = 0x38;
     uintptr_t PlayerState = 0x2c8;
     uintptr_t GameState = 0x188;
