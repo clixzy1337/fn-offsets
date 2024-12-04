@@ -60,5 +60,7 @@ namespace offsets
 	uintptr_t TargetedFortPawn = 0x18E8;
 	uintptr_t LocationUnderReticle = 0x26F0;
 	uintptr_t HabaneroComponent = 0xA10;
+        uintptr_t StaticFindObject: 0x17A8760
+
 
 }
