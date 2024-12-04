@@ -5,7 +5,6 @@ namespace offsets
 {
 	uintptr_t UWORLD = 0x13743D18;    
 	uintptr_t GObjects = 0x130C2A80; 
-
 	uintptr_t LocalPawn = 0x350;
 	uintptr_t PlayerController = 0x30;
 	uintptr_t LocalPlayers = 0x38;
